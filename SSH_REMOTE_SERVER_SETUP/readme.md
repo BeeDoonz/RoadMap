@@ -49,7 +49,7 @@ mkdir -p ~/.ssh
 nano ~/.ssh/authorized_keys
 ```
 
-Cole o conteúdo da sua chave pública (`nome_da_sua_chave.pub`) e salve com `CTRL+O`, depois `CTRL+X`.
+Cole o conteúdo das suas chaves públicas (`nome_da_sua_chave.pub`) e salve com `CTRL+O`, depois `CTRL+X`.
 
 ### 4. Ajustar Permissões no Servidor
 
@@ -81,12 +81,12 @@ C:\Users\SeuUsuario\.ssh\config
 Exemplo de configuração:
 
 ```ssh
-Host servidor-aws1
+Host servidor-aws
     HostName <server-ip>
     User ubuntu
     IdentityFile C:/Users/SeuUsuario/.ssh/nome_da_sua_chave1
 
-Host servidor-aws2
+Host servidor-aws
     HostName <server-ip2>
     User ubuntu
     IdentifyFile C:/Users/SeuUsuario/.ssh/nome_da_sua_chave2
@@ -94,17 +94,18 @@ Host servidor-aws2
 
 Agora, para conectar:
 
-Para conectar ao servidor-aws1:
+Para conectar ao servidor-aws:
 
 ```powershell
 ssh servidor-aws
 ```
 
-Para conectar ao servidor-aws2:
+Para conectar ao servidor-aws:
 
 ```powershell
-ssh servidor-aws2
+ssh servidor-aws
 ```
+Agora é possível conectar ao servidor AWS com as duas chaves SSH!
 
 ## 🛡️ Proteção Adicional com Fail2Ban (Opcional)
 
