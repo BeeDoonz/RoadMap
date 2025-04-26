@@ -102,7 +102,21 @@ Se quiser melhorar o projeto, sinta-se à vontade para abrir uma issue ou enviar
 
 ## 📃 Licença
 
-Este projeto é de código aberto, sob a licença MIT.
+Este projeto é de código aberto, sob a seguinte licença personalizada:
+
+Licença de Uso - Automatic SSH Configuration
+
+Copyright (c) 2025 Felipe Thales
+
+Este software e toda a sua documentação associada ("Software") são fornecidos gratuitamente para uso pessoal e educacional, sob as seguintes condições:
+
+- É permitido usar, copiar, modificar e distribuir este Software, desde que não seja utilizado para fins comerciais ou lucrativos.
+
+- É estritamente proibido vender, sublicenciar ou redistribuir o Software, ou quaisquer trabalhos derivados, para fins comerciais.
+
+- O aviso de copyright acima e esta permissão devem ser incluídos em todas as cópias ou partes substanciais do Software.
+
+O Software é fornecido "no estado em que se encontra", sem qualquer tipo de garantia expressa ou implícita, incluindo, mas não se limitando a garantias de comercialização, adequação a um propósito específico e não violação. Em nenhum caso os autores serão responsáveis por quaisquer danos decorrentes do uso do Software.
 
 ---
 
