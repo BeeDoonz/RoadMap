@@ -10,7 +10,7 @@ Cada pasta representa um projeto individual, contendo:
 - Materiais auxiliares (se necessário)
 
 ## 📚 Projetos
-- [SSH_REMOTE_SERVER_SETUP](./SSH_REMOTE_SERVER_SETUP/README.md) — Setup remoto de servidor via SSH.
+- [SSH_REMOTE_SERVER_SETUP](./SSH_REMOTE_SERVER_SETUP/) — Setup remoto de servidor via SSH.
 - *(Outros projetos serão adicionados em breve)*
 
 ## 🎯 Objetivo
